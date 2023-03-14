@@ -24,7 +24,7 @@ function decrementValue(){
 }
 
 function resetValue(){
-  
-      document.getElementById("value").innerHTML = "";
    
+      document.getElementById("value").innerHTML = 0;
+      document.getElementById("value").style.color = "coral";
 }
